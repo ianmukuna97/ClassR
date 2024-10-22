@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+  <style>
+    {
+        padding: 0;
+        margin: 0;
+    }
+    .outer{
+      display: flex;
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      background: #ff3300
+    }
+
+    .outer h2{
+      color: #0b0b0b;
+    }
+
+    .outer{
+      color: #959595;
+    }
+
+    .inner{
+      background: crimson;
+      padding: 20px 16px;
+      width: 45%;
+    }
+    .container{
+      display: flex;
+      justify-content: space-evenly;
+      background: #ff3300;
+      padding: 25px;
+      padding-bottom: 25px;
+    }
+
+    .smaller{
+    width:20% ;
+    height: 60px;
+    background-color: #959595;
+    color: #0b0b0b;
+    font size: 1.7em;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="outer">
+  <div class="inner">
+  <div>
+    <h2>First Box</h2>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.<span id="shout"></span> Ab adipisci architecto at aut culpa debitis ea est et itaque nemo, optio pariatur quasi repudiandae velit voluptatibus? Dolorem laborum minima pariatur.</span></p>
+  </div>
+</div>
+
+<div>
+  <h2><span>Second Box</span></h2>
+  <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus asperiores assumenda consectetur culpa, cum dolorem doloribus, dolorum eum eveniet expedita facere fugiat illum incidunt, officia veniam voluptas voluptate. Ab, ipsum?</span></p>
+</div>
+</div>
+
+ <div class="container">
+            <div class="smaller">1</div>
+            <div class="smaller">2</div>
+            <div class="smaller">3</div>
+            <div class="smaller">4</div>
+        </div>
+</body>
+</html>

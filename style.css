@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #ffffff;
+    font-family: "Afacad Flux";
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+nav {
+    background: #959595;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none; /*remove bullets*/
+    height: 60px;
+    font-family: "Dancing script", cursive;
+    font-size: 1.2em;
+}
+
+nav li{
+    padding: 0px 24px;
+}
+
+nav li:first-child{
+    margin-right: auto;
+    font-family: "Dancing script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.4em;
+}
+
+nav a{
+    text-decoration: none;
+    color: #8a0505;
+    font-weight: 600;
+    transition: color 400ms, font-size 400ms;
+}
+
+nav a:hover{
+    color: #450101;
+    font-size: 1.1em;
+}
+
+footer{
+    border-top:1px solid #bdbdbd;
+}
+
+footer .social-media-links{
+    height: 100px;
+    background: #959595;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+}
+
+footer .bottom{
+    padding: 24px 0;
+    text-align: center;
+}
